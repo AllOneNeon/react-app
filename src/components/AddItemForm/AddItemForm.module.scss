@@ -1,0 +1,38 @@
+.container {
+  margin-top: 50px;
+  display: flex;
+  input {
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #450358;
+    outline: none;
+    color: #2dd4e0;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 500px;
+    box-sizing: border-box;
+    transition: all 0.25s ease;
+    &:hover{
+      border-color: white;
+    }
+  }
+
+  button {
+    margin-left: 20px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background-color: #450358;
+    color: #f1f1f1;
+    cursor: pointer;
+    border: 1px solid #450358;
+    transition: all 0.2s ease;
+
+    &:hover {
+      border-color: white;
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}

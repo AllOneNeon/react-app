@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    font-family: "Be Vietnam Pro";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

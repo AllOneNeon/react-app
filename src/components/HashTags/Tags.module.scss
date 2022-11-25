@@ -1,0 +1,59 @@
+.container {
+  min-width: 100%;
+
+  input {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #450358;
+    outline: none;
+    color: #2dd4e0;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 100%;
+  }
+
+  button {
+    margin-left: 5px;
+    margin-right: 20px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+
+    &:hover {
+      filter: brightness(80%);
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+
+}
+
+.tag {
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.tagWrapper{
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  cursor: pointer;
+}
+.activeTag {
+  color: rgb(228, 137, 0);
+}
